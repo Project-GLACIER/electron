@@ -156,9 +156,9 @@ app.once('ready', () => {
           }
         },
         {
-          label: 'Search Issues',
+          label: 'Team Glacier',
           click () {
-            shell.openExternal('https://github.com/electron/electron/issues')
+            shell.openExternal('https://github.com/orgs/Project-GLACIER/people')
           }
         }
       ]
